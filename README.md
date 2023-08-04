@@ -2,7 +2,7 @@
 
 Использую _[Vagrantfile](Vagrantfile)_, который в репозитории
 
-При создании будут использваны скрипты _[скрипт](install_script_client.sh)_ и _[скрипт](install_script_backup.sh)
+При создании будут использваны скрипты _[install_script_client.sh](install_script_client.sh)_ и _[install_script_backup.sh](install_script_backup.sh)_
 
 Будут созданы виртуальные машины:  
 с именем **client**, ip-адресом - **192.168.11.150**  
