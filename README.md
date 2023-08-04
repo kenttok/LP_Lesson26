@@ -32,7 +32,7 @@ sdb      8:16   0   2G  0 disk
 #echo "/dev/sdb1            /var/backup                    xfs     defaults        0 0" >> /etc/fstab
 ```
 
-На обоих машинах нужно настроить между собой ssh соединение по ключу. Содержимое /root/.ssh/id_rsa.pub добавляем в файл authorized_keys в каталоге /home/borg/.ssh/
+На обоих машинах нужно настроить между собой ssh соединение по ключу. Содержимое с client /root/.ssh/id_rsa.pub добавляем в backup файл authorized_keys в каталоге /home/borg/.ssh/
 
 **Действия на машине client**
 
