@@ -69,6 +69,7 @@ cat etc/hostname
 	client
 ```
 
+
 **Автоматизируем создание бэкапов с помощью systemd**
 С помощью Vagrant файла, ранее создалось два файла: borg-backup.service (сервис) и borg-backup.timer (таймер).
 
